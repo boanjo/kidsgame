@@ -41,6 +41,7 @@ public class Game extends JFrame implements Runnable{
 		int width = 1280;
 		int height = 960;
 		
+		
 		thread = new Thread(this);
 		image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 		pixels = ((DataBufferInt)image.getRaster().getDataBuffer()).getData();

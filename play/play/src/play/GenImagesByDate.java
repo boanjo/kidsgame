@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
-import java.util.StringTokenizer;
 
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.metadata.Directory;
